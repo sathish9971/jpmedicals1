@@ -1,0 +1,552 @@
+body{
+    margin:0;
+    box-sizing: border-box;
+}
+
+#topbar{
+    height:30px;
+    background-color: cadetblue;
+     text-align: right;
+     font-size: larger;
+    
+     
+}
+.reglink{
+    text-decoration: none!important;
+    position:relative;
+    top:0px;
+    color:white;
+}
+.reglink:hover{
+    color:#F9D923;
+}
+.loglink{
+    color:white;
+    margin-right: 150px;
+    padding-left: 10px;
+    position:relative;
+    top:0px;
+    text-decoration: none!important;
+}
+.loglink:hover{
+    color:#F9D923;
+}
+.logoimg{
+    width:30px;
+    height:45px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.heading{
+    display: inline-block;
+   position: relative;
+   color:#242F9B;
+   font-size: 2rem;
+   margin: 0px !important;
+   
+}
+.rec{
+    display:inline-block;
+    position:relative;
+    right:135px;
+    top:15px;
+    color:blueviolet;
+    font-size: medium;
+    margin-right:40%;
+    font-size:1rem;
+    margin-top:0; 
+     margin-bottom: 0;
+}
+.navbar {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    z-index:-1;
+  }
+  
+  .navbar li {float: left;}
+  
+  .navbar li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  .navbar li a:hover{
+      color:grey;
+  }
+ 
+
+  .flex-container {
+      height:380px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    text-align: left;
+    line-height: 1;
+  }
+  
+  .flex-item-left {
+    background-image:linear-gradient(to bottom left, blue,skyblue);
+    flex: 50%;
+    height:400px;
+    display:inlinie-block;
+    line-height:1.35;
+  }
+  
+  .LF{
+   margin:0;
+   padding-top: 105px;
+   padding-left:250px;
+    color:white;
+}
+.title{
+    margin:0;
+    display: inline !important;
+    color:white;
+}
+.title1{
+    padding-left:250px;
+    margin:0;
+    display: inline !important;
+    font-size: 3rem;
+   
+
+}
+.ptext0{
+   margin-bottom:0;
+   padding-left:250px;
+  
+    color:white;
+}  
+.ptext1{
+    margin-top:0;
+    padding-left:250px;
+    
+    color:white;
+}
+.flex-item-right {
+    background-image:linear-gradient(to bottom left, violet,skyblue) ;
+    flex: 50%;
+    height:400px;
+  }
+  .ladydocimg{
+     
+      width:100%;
+      height:100%;
+  }
+  #poster{
+      padding-top:25px;
+      
+  }
+  .welcome{
+      font-size:2rem;
+      display:inline;
+      padding-left:150px;
+  }
+  .jp{
+      font-size:2rem;
+      display:inline;
+      
+  }
+  .welpara{
+      font-size:1.1rem;
+      padding-left:150px;
+      padding-right:150px;
+  }
+  #outrdiv{
+    height:350px;
+    width:1200px;
+    margin-left:150px;
+    background-image:url("E:/ana'sTask/images/m&d1.jpg");  
+}
+.innerdiv{
+    padding-left:50px;
+    height:300px;
+    width:1050px;
+    background-color:#79DAE8;
+  position:relative;
+  top:30px;
+  left:45px;
+  opacity:0.7;
+}
+.ininerdiv{
+    padding-left:80px;
+    height:200px;
+    width:900px;
+    background-color:#0AA1DD;
+  position:relative;
+  top:50px; 
+  opacity:0.9;   
+}
+.inerdivpara{
+    color:white;
+    font-size:1.45rem;
+    font-style:italic;
+    text-align:center;
+    margin-top:10px;
+    padding-left:10px;
+}
+.bene{
+    font-size: 1.75rem;
+    color:black;
+    text-align:center;
+    padding-top:25px;
+    margin:0;
+  
+}
+#features{
+    padding-top:20px;
+    height:420px;
+}
+.box{
+    height:420px;
+}
+
+   .col1{
+       background:none;
+       height:420px;
+       line-height:1;
+   }
+   .col2{
+       background:none;
+    height:420px;
+    line-height: 1;
+   }
+  .thirdimg{
+      width: 650px;
+      height:230px;
+      padding-left:175px;
+      padding-top:25px;
+  }
+  .thirdimgh3{
+      padding-left:175px;
+  }
+  .thirdimgpara{
+      padding-left:175px;
+      margin:0;
+      
+  }
+  .thirdimgpara1{
+    padding-left:175px;
+    padding-top:15px;
+    margin:0;
+}
+.fourthimgpara{
+    
+    margin:0;
+    padding-bottom:10px;
+    
+}
+.fourthimgpara1{
+
+  margin:0;
+  
+}
+.btn{
+    position: relative;
+    left:175px;
+    top:13px;
+    background-color: rgba(16, 81, 243, 0.717);
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.button{
+    position:relative;
+    top:15px;
+    left:0px;
+    background-color:rgba(16, 81, 243, 0.717);
+    padding-top:5px;
+    padding-bottom:5px;
+   
+}
+  .fourthimg{
+    width:450px;
+    height:230px;
+    padding-left:0px;
+    padding-top:25px;
+}
+#contact{
+    background-image:url("E:/ana'sTask/images/stet2.jpg");
+    color:#f1f1f1;
+}
+.wcutxt{
+    line-height:0.8;
+    background:none;
+    padding-left:100px;
+}
+.tcutxt{
+    background:none;
+    padding-left:25px;
+}
+.wcuh2-1{
+    display:inline;
+    
+}
+.wcuh2-2{
+    display:inline;
+    
+}
+.tcuh2-1{
+    display:inline;
+    
+}
+.tcuh2-2{
+    display:inline;
+    
+}
+
+.wcupara1{
+    padding-top:20px;
+}
+.icons li{
+   
+    padding-bottom:20px;
+}
+.loc{
+    padding-top:20px;
+}
+.ft{
+    background-color: skyblue;
+    height:25px;
+    text-align: center;
+}
+  /* for tablet responsive  */
+  @media   (max-width: 768px) { 
+
+    
+    .loglink{
+        padding-right:300px;
+    }
+    .navigbar{
+        height: 325 !important;
+    }
+    .navbar li 
+    {float: none;
+        position: relative;
+        top:18px;
+        
+    }
+    .heading{
+      
+        z-index:1;
+    }
+    .rec{
+        position: relative;
+        bottom:2px;
+        
+    }
+    .navbar{
+        position:relative;
+        bottom:10px;
+        left:20px;
+    }
+    .flex-container {
+        text-align: left;
+        flex-direction: column;
+      }.LF{
+          padding-top: 50px;
+          padding-left: 0;
+          
+      }
+      .title{
+          padding-left:0;
+          
+      }
+      .title1{
+        padding-left:0;
+        
+    }.ptext0{
+        padding-left:0;
+        
+    }.ptext1{
+        padding-left:0;
+        
+    }
+      .flex-item-right{
+          height: 400px !important;
+      }
+      #poster{
+          position:absolute;
+          top:63rem;
+          
+      }
+      .welcome{
+          padding-left:0;
+      }
+      .welpara{
+          padding-left:0;
+          padding-right:100px;
+      }
+      #outrdiv{
+          position:absolute;
+          top:78.5rem;
+          margin-left: 10px;
+          width:760px;
+      }
+      .innerdiv{
+          width:600px;
+      }
+      .ininerdiv{
+          width:520px;
+          padding-left:30px;
+      }
+      .inerdivpara{
+         text-align: left;
+      }
+      .col1{
+          position:relative;
+          top:53rem;
+          text-align:left;
+         
+      }
+      .col2{
+          position:relative;
+          top:54rem;
+      }
+      .thirdimg{
+        width:500px;
+        padding-left:0px;
+     
+    }
+    .thirdimgh3{
+        padding-left:0px;
+    }
+    .thirdimgpara{
+        padding-left:0px;
+        margin:0;
+        
+    }
+    .thirdimgpara1{
+      padding-left:0px;
+      
+  }.btn{
+      position:relative;
+      left:0;
+  }
+  #contact{
+      position:relative;
+      top:75rem;
+      height:fit-content;
+      width:768px;
+  }
+  .wcutxt{
+      padding-left: 0;
+      width:650px;
+  }
+  .tcutxt{
+      padding-left: 0;
+  }
+  .ft{
+      position: relative;
+      top:75rem;
+  }
+
+  }
+/* for mobile responisve */
+  @media   (max-width: 426px){
+          .logoimg{
+              padding:0;
+          }
+          .heading{
+              font-size: 1.5rem;
+          }
+         .loglink{
+             margin-right:0;
+             padding-right:270px;
+         }
+          .navbar{
+            position:relative;
+            bottom: 20px !important;
+            z-index: -1;
+           
+        }
+        .rec{
+            position:relative;
+            left:65px;
+            top:-15px;
+        }
+
+        .flex-item-left{
+            text-align:left;
+        }
+
+        #poster{
+            position:absolute;
+            top:62rem;
+        }
+        .welcome{
+            padding-left: 0;
+
+        }
+        .welpara{
+            text-align: left;
+            padding-left:0;
+            padding-right:10%;
+            line-height: 1.5;
+        } 
+        
+        #outrdiv{
+            position:absolute;
+            top:83.5rem;
+            margin-left: 0;
+            width:424px;
+        }
+        .innerdiv{
+            width:300px;
+        }
+        .ininerdiv{
+            width:220px;
+        }
+        .bene{
+            text-align: center;
+        }
+        .inerdivpara{
+           text-align: left;
+           font-size:1rem;
+           padding-left:0;
+        }
+        #poster{
+            padding-top:0;
+        }
+        .col1{
+            position:relative;
+            top:58rem;
+        }
+        .col2{
+            position: relative;
+            top:60rem;
+        }
+        .thirdimg{
+            width:400px;
+            
+        }
+        .fourthimg{
+            width:400px;
+        }
+        #contact{
+            position:relative;
+            top:85rem;
+            height:fit-content;
+            width:420px;
+        }
+        .wcutxt{
+            width:420px;
+            line-height: 1;
+        }
+        .tcutxt{
+            width:420px;
+            
+        }
+        .ft{
+            position:relative;
+            top:85rem;
+        }
+
+  }
